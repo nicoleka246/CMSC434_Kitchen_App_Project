@@ -70,4 +70,10 @@ h2{
 }
 /* This begins the CSS for the navigational part of the app */
 footer{
+  
+  width: 640px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
