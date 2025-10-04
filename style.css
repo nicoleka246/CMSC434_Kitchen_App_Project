@@ -1,4 +1,39 @@
-#device_setting{
+.device{
+    margin: auto;
     width: 640px;
     height: 960px;
+    overflow: hidden;
+    background-color: orange;
+    position: relative;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#profImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#message{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    font-size: 20px;
+    display: block;
+    position: relative;
+}
+
+h2{
+    text-align: center;
 }

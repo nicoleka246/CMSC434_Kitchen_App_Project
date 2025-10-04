@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<div class="device">
+    <h1>User Profile</h1>
+  <div class="profile" id="profile">
+    <img src="chef.png" id="profImg" onclick="document.getElementById('message').style.display='block'">
+    <h2 id="username">Chef</h2>
+  </div>
+  <div class="message" id="message" style="display:none">
+    <p >Welcome Back Chef!</p>
+    <button class="close-btn" id="closeBtn" onclick="document.getElementById('message').style.display='none'">Close</button>
+  </div>
+</div>
+</html>
