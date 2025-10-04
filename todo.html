@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Title</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo-style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text.</p>
+    <div class = "device">
+        <h1>To Do List</h1>
+        <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            <input type="text" id="myInput" placeholder="task...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        
+        <ul id="myUL">
+        </ul>
+    </div>
+
+    <script src = "todo-script.js"></script>
+    
 </body>
 </html>
