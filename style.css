@@ -37,3 +37,34 @@ div {
 h2{
     text-align: center;
 }
+
+.deviceSetting{
+    width: 640px;
+    height: 960px;
+    background-color: aqua;
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+}
+
+.basicTabSetting{
+    width: 640px;
+    height: 900px;
+    position:relative;
+    margin:auto;
+}
+
+.tabTwoStyle{
+    position: absolute;
+    bottom:100px;
+    right:20px;
+}
+
+.popUp{
+    background-color: beige;
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
