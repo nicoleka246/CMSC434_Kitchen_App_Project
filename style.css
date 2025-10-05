@@ -71,6 +71,13 @@ h2{
     margin: auto;
     text-align: center;
 }
+
+
+.lr-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 /* This begins the CSS for the navigational part of the app */
 footer{
   width: 640px;
