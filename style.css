@@ -1,13 +1,14 @@
-h1{
+h1,h2{
     text-align:center;
 }
 .device{
     margin: auto;
     width: 640px;
     height: 960px;
-    overflow: hidden;
+    overflow-y: auto;
     background-color: orange;
     position: relative;
+    font-size: 20px;
 }
 
 div {
@@ -37,10 +38,6 @@ div {
     position: relative;
 }
 
-h2{
-    text-align: center;
-}
-
 .deviceSetting{
     width: 640px;
     height: 960px;
@@ -67,7 +64,6 @@ h2{
     background-color: beige;
     width: 50%;
     height: 30px;
-    position: absolute;
     margin: auto;
     text-align: center;
 }
@@ -75,8 +71,10 @@ h2{
 
 .lr-text {
     position: absolute;
-    bottom: 0;
+    bottom: 5rem;
     right: 0;
+    padding-right: .5rem;
+    
 }
 /* This begins the CSS for the navigational part of the app */
 footer{
@@ -108,9 +106,7 @@ footer{
 #nav-curr{
     background-color: beige;
 }
-#nav-curr{
-    background-color:beige;
-}
+/* The CSS Continues Here*/
 #black-bg{
     text-align:center; 
     background-color:black;
@@ -125,4 +121,7 @@ footer{
     font-size: 1.5rem;
     font-style: bold;
 }
-
+#tab5{
+  padding-left: 2rem;
+  font-size:1.25rem;
+}
