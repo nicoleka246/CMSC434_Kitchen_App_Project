@@ -75,3 +75,33 @@ h2{
     bottom: 0;
     right: 0;
 }
+/* This begins the CSS for the navigational part of the app */
+footer{
+  width: 640px;
+  height: 90px;
+  bottom : 0;
+  position:fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+}
+.nav{
+    color:black;
+    text-decoration: none;
+}
+.nav:visited{
+    color:black;
+}
+.nav-img{
+ height:70px;
+}
+.nav:hover{
+    background-color:aliceblue;
+}
+#nav-curr{
+    background-color: aliceblue;
+}
+
