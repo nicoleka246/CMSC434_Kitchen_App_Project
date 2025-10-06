@@ -133,7 +133,7 @@ footer{
  height:70px;
 }
 .nav:hover{
-    background-color:beige;
+    background-color:rgba(245, 245, 220, 0.682);
 }
 #nav-curr{
     background-color: beige;
